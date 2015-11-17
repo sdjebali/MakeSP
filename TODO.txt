@@ -1,0 +1,5 @@
+
+
+# make it possible to take in any gff file, and by default with gnid in $10 and trid in $12
+# make it possible to take any above gff file even with more than 12 fields 
+# make it possible to get the list of tr that share a given sp
