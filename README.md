@@ -8,6 +8,9 @@ An executable called makeSP is provided for a linux system (64 bit architecture)
 For this to work you will need to have ocaml installed, and to follow these steps:
 
 $ git clone https://github.com/sdjebali/MakeSP.git
+
 $ cd MakeSP
+
 $ make
+
 This should create an executable called makeSP which will give you the help when launched with no argument.
