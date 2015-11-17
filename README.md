@@ -6,6 +6,7 @@ This program has 1 mandatory argument which is a gene annotation with at least e
 # Installation
 An executable called makeSP is provided for a linux system (64 bit architecture), however if this does not work it is also possible to compile a binary from the source.
 For this to work you will need to have ocaml installed, and to follow these steps:
+
 $ git clone https://github.com/sdjebali/MakeSP.git
 $ cd MakeSP
 $ make
