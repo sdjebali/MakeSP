@@ -1,5 +1,5 @@
 # MakeSP
-This is a program to compute segmented projections from annotated transcripts of a genome.
+This is a program to compute segmented projections from annotated transcripts of a genome, as illustrated here https://github.com/sdjebali/MakeSP/blob/master/SP.pdf.
 The existence of several transcript isoforms for a given gene indeed allow to define segmented projections (see SP.pdf here), which are maximal exonic segments for wich all bases belong to a commun number of transcripts. This means that if we go from 5' to 3' within a gene, a new segmented projection will be created each time there is a new exon boundary (begining or end of an exon).
 This program has 1 mandatory argument which is a gene annotation with at least exon rows in gff version 2 format but where the two first (key,value) pairs are transcript_id and gene_id (in this order).
 
